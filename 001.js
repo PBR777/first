@@ -2,13 +2,13 @@
     "use strict";
 
 
-    class PBR777 {
+    class PBR {
       constructor () {}
   
       getInfo () {
         return {
-          id: "pbr777",
-          name: "PBR777",
+          id: "pbr",
+          name: "PBR",
           blocks: [
             {
               opcode: "letters_of",
@@ -38,5 +38,5 @@
       }
     }
   
-    Scratch.extensions.register(new PBR777());
+    Scratch.extensions.register(new PBR());
   })(Scratch);
